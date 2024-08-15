@@ -1,1 +1,42 @@
-h1
+.hero-image{
+    background-image: url("./Images/Hero.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    opacity: 70%;
+}
+.hero-text{
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 200px;
+    text-align: center;
+    width: 100%;
+    font-size: 4rem;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: whitesmoke;
+    font-size: 50px;
+  }
+  
+  li {
+    float: left;
+    border-right: 1px solid #020202;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to black on hover */
+  li a:hover {
+    background-color: #4e4e4e;
+  }
