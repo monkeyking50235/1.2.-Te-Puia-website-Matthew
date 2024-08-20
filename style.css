@@ -1,10 +1,12 @@
 .hero-image{
-    background-image: url("./Images/Hero.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 700px;
-    opacity: 70%;
+    background-image:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.11),
+    rgba(255,255,255,0.7)),
+    url("./Images/Hero.jpg");
 }
 .hero-text{
     color: rgb(0, 0, 0);
@@ -13,7 +15,7 @@
     text-align: center;
     width: 100%;
     font-size: 4rem;
-    opacity: 100%;
+    opacity: 100% !important;
 }
 ul {
     list-style-type: none;
@@ -29,7 +31,6 @@ ul {
   li {
     float: left;
     border-right: 1px solid #020202;
-    flex: 1;
     padding: 16px;
   }
   
@@ -40,6 +41,8 @@ ul {
     padding: 14px 16px;
     text-decoration: none;
   }
+
+#left-most {border-left: 1px solid #020202;}
 
 #nav-image {
   display: flex;
@@ -52,4 +55,12 @@ ul {
   /* Change the link color to grey on hover */
   li a:hover {
     background-color: #4e4e4e;
+    color: #d7d2e9;
   }
+
+  .two-coloumn {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 10px;
+    }
