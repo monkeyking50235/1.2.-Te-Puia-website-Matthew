@@ -137,19 +137,26 @@ footer{
   padding-bottom: 20px;
 }
 
-.image-right img{
-  background-position: 100% 50%;
-  float:right;
-  width:50%
+.image-left img{
+  width:100%
 }
 
-.text-left{
-  padding-right: 20px;
-  height: 400px;
-  word-wrap: break-word
+.text-right{
+  width:100%
 }
 
 #two-column-geo{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 20px;
+  position: relative;
+  text-align: center;
+  width:100%;
+  padding-top: 40px;
+}
+
+.geo-column{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 1fr;
@@ -190,4 +197,26 @@ footer{
   background-size: cover;
   height: 400px;
   background-position: center;
+}
+
+#mudpool-image{
+  background-image:
+  linear-gradient(180deg, rgba(255, 255, 255, 0),
+  rgba(255,255,255,0.7)),
+  url("./Images/New\ mud\ pool.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  background-position: center;
+}
+
+#mud-column{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 20px;
+  position: relative;
+  text-align: center;
+  width:100%;
+  padding-top: 40px;
 }
