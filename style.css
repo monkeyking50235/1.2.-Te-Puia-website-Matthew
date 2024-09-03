@@ -7,16 +7,33 @@
   linear-gradient(180deg, rgba(255, 255, 255, 0.11),
   rgba(255,255,255,0.7)),
   url("./Images/Hero.jpg");
+
 }
-#hero-text{
+.hero-text{
   color: rgb(0, 0, 0);
   position: absolute;
   top: 200px;
   text-align: center;
   width: 100%;
   font-size: 4rem;
+  line-height: 400px;
 }
-ul {
+
+.minor-text a{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  line-height: 400px;
+}
+
+#geo-image{
+  background-image:
+  linear-gradient(180deg, rgba(255, 255, 255, 0.11),
+  rgba(255,255,255,0.7)),
+  url("./Images/Geothermal\ valley.jpg");
+}
+
+ul{
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -27,13 +44,13 @@ ul {
   width: 90%;
 }
   
-li {
+li{
   float: left;
   border-right: 1px solid #020202;
   padding: 16px;
 }
   
-li a {
+li a{
   display: block;
   color: rgb(0, 0, 0);
   text-align: center;
@@ -43,7 +60,7 @@ li a {
 
 #left-most {border-left: 1px solid #020202;}
 
-#nav-image {
+#nav-image{
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -52,12 +69,12 @@ li a {
 }
   
 /* Change the link color to grey on hover */
-li a:hover {
+li a:hover{
   background-color: #4e4e4e;
   color: #d7d2e9;
 }
 
-.two-column {
+.two-column{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 1fr;
@@ -70,17 +87,17 @@ main{
   text-align: center;
 }
 
-.centered {
+.centered{
   position: absolute;
   top: 60%;
   left: 50%;
   transform: translate(-160%, -160%);
   color: rgb(0, 0, 0);
 }
-.centered2 {
+.centered2{
   position: absolute;
   top: 30%;
-  left: 50%;
+  left:50%;
   transform: translate(60%, 60%);
   color: rgb(0, 0, 0);
 }
@@ -117,4 +134,60 @@ footer{
   width: 100%;
   text-decoration: none;
   line-height: 400px;
+  padding-bottom: 20px;
+}
+
+.image-right img{
+  background-position: 100% 50%;
+  float:right;
+  width:50%
+}
+
+.text-left{
+  padding-right: 20px;
+  height: 400px;
+  word-wrap: break-word
+}
+
+#two-column-geo{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 20px;
+  position: relative;
+  text-align: center;
+  width:100%;
+  padding-top: 40px;
+}
+
+.centered3{
+  position: absolute;
+  top: 40%;
+  left:55%;
+  transform: translate(60%, 60%);
+  color: rgb(0, 0, 0);
+}
+
+.centered4{
+  position: absolute;
+  top: 40%;
+  left:5%;
+  transform: translate(60%, 60%);
+  color: rgb(0, 0, 0);
+}
+
+#two-column-geo a{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+#geyser-image{
+  background-image:
+  linear-gradient(180deg, rgba(255, 255, 255, 0),
+  rgba(255,255,255,0.7)),
+  url("./Images/geyser-final.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  background-position: center;
 }
