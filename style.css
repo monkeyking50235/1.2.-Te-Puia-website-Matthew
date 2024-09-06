@@ -1,0 +1,318 @@
+/*This affects the hero image of the main page*/
+#hero-image{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 700px;
+  background-image:
+  linear-gradient(180deg, rgba(255, 255, 255, 0.11),
+  rgba(255,255,255,0.7)),
+  url("./Images/Hero.jpg");
+  border: #acb7ae solid 5px;
+}
+/*This affects the hero text of the main page*/
+.hero-text{
+  color: rgb(0, 0, 0);
+  position: absolute;
+  top: 200px;
+  text-align: center;
+  width: 100%;
+  font-size: 5rem;
+  line-height: 100px;
+}
+/*This affects the hero text of the carving page as it is the text contrasting 
+a dark background*/
+.hero-text-dark{
+  color: #ffffff;
+  position: absolute;
+  top: 200px;
+  text-align: center;
+  width: 100%;
+  font-size: 5rem;
+  line-height: 100px;
+}
+
+.main-hero-text{
+  color: #000000;
+  position: absolute;
+  top: 300px;
+  text-align: center;
+  width: 100%;
+  font-size: 7rem;
+  line-height: 100px;
+}
+/*This affects the index page link to the geothermal valley*/
+.minor-text a{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  line-height: 400px;
+}
+/*This affects the nav column bar as a whole*/
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-size:20px;
+  border: 0;
+  width: 90%;
+}
+/*This affects the nav bars items*/
+li{
+  float: left;
+  border-right: 1px solid #020202;
+  padding: 16px;
+}
+/*This affects the nav bar links specifically*/
+li a{
+  display: block;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+/*This creates a border for the left most nav bar item*/
+#left-most {border-left: 1px solid #020202;}
+/*This affects the nav-bar image*/
+#nav-image{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  float: left;
+  border: 0;
+}
+/* Change the link color to grey on hover */
+li a:hover{
+  background-color: #8a8a8a;
+  color: #d7d2e9;
+}
+/*This creates a two column layout*/
+.two-column{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 20px;
+  position: relative;
+  text-align: center;
+}
+/*This makes every page centered*/
+main{
+  text-align: center;
+}
+/*This makes the text on the dual images centered*/
+.centered{
+  position: absolute;
+  top: 65%;
+  left: 54%;
+  transform: translate(-160%, -160%);
+  color: rgb(0, 0, 0);
+}
+/*This makes the text on the dual images centered*/
+.centered2{
+  position: absolute;
+  top: 28%;
+  left:45%;
+  transform: translate(60%, 60%);
+  color: rgb(0, 0, 0);
+}
+/*This changes the opacity of images without changing the text*/
+.opacity{
+  opacity: 60%;
+}
+/*This affects the two column links specifically*/
+.two-column a{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+/*This affects the footer*/
+footer{
+  padding: 30px 0 30px 0;
+  text-align: center;
+  background-color: #e4decd;
+}
+/*This creates the geo page header image*/
+#geo-image{
+  background-image:
+  linear-gradient(180deg, rgba(255, 255, 255, 0),
+  rgba(255,255,255,0.7)),
+  url("./Images/Geo-working.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  background-position: bottom;
+  border: #acb7ae solid 5px;
+}
+/*This affects the geo page text*/
+#geo-text a{
+  color: rgb(0, 0, 0);
+  top: 200px;
+  text-align: center;
+  width: 100%;
+  text-decoration: none;
+  line-height: 400px;
+  padding-bottom: 20px;
+}
+/*This lets the text in a two section take up half the page*/
+.image-left img{
+  width:100%
+}
+/*This lets the image in a two section take up half the page*/
+.text-right{
+  width:100%
+}
+/*This lets the image in a two section take up a smaller amount of space than 
+normal*/
+.image-left-smaller{
+  width:90%
+}
+/*This lets the text in a two section take up a smaller amount of space than 
+normal*/
+.text-right-smaller{
+  width:70%
+}
+/*This creates a two column layout for geo*/
+#two-column-geo{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 20px;
+  position: relative;
+  text-align: center;
+  width:100%;
+  padding-top: 40px;
+}
+/*This creates a two column layout*/
+.column{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 20px;
+  position: relative;
+  text-align: center;
+  width:100%;
+  padding-top: 40px;
+}
+/*This makes the text on the dual images centered*/
+.centered3{
+  position: absolute;
+  top: 40%;
+  left:50%;
+  transform: translate(60%, 60%);
+  color: rgb(0, 0, 0);
+}
+/*This makes the text on the dual images centered*/
+.centered4{
+  position: absolute;
+  top: 40%;
+  left:1%;
+  transform: translate(60%, 60%);
+  color: rgb(0, 0, 0);
+}
+/*This affects the two column links specifically*/
+#two-column-geo a{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+/*This creates the geyser page header image*/
+#geyser-image{
+  background-image:
+  linear-gradient(180deg, rgba(255, 255, 255, 0),
+  rgba(255,255,255,0.7)),
+  url("./Images/geyser-final.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  background-position: center;
+  border: #acb7ae solid 5px;
+}
+/*This creates the mudpool page header image*/
+#mudpool-image{
+  background-image:
+  linear-gradient(180deg, rgba(255, 255, 255, 0),
+  rgba(255,255,255,0.7)),
+  url("./Images/New\ mud\ pool.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  background-position: center;
+  border: #acb7ae solid 5px;
+}
+/*This creates a mudpool page two column layout*/
+#mud-column{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 20px;
+  position: relative;
+  text-align: center;
+  width:100%;
+  padding-top: 40px;
+}
+/*This creates the carving page header image*/
+#carving-image{
+  background-image:
+  linear-gradient(180deg, rgba(255, 255, 255, 0),
+  rgba(255,255,255,0.7)),
+  url("./Images/Carving.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  background-position: 0px -800px ;
+  border: #acb7ae solid 5px;
+}
+/*This creates the weaving page header image*/
+#weaving-image{
+  background-image:
+  linear-gradient(180deg, rgba(255, 255, 255, 0),
+  rgba(255,255,255,0.7)),
+  url("./Images/Weaving-house.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  background-position: center;
+  border: #acb7ae solid 5px;
+}
+/*This makes the images on the school pages linking to each other rounded*/
+.round{
+  border:1px solid;
+  border-radius:50%;
+  width:300px;
+  height:300px;
+}
+/*This makes the small line between sections aqua*/
+hr{
+  color:aqua
+}
+/*This changes the pages colour*/
+main{
+  background-color: #e4decd;
+  color: #161313;
+}
+/*This makes the images have a small border*/
+img{
+  border: #acb7ae solid 5px;
+}
+/*This makes the whole nav bar white */
+nav{
+  background-color: whitesmoke;
+}
+
+p{
+  font-size: 25px;
+  line-height:50px;
+}
+
+small{
+  font-size: 15px !important;
+}
+
+h2{
+  font-size: 35px;
+}
+
+h3{
+  font-size: 30px;
+}
