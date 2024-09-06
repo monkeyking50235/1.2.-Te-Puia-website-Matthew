@@ -32,7 +32,7 @@ a dark background*/
   font-size: 5rem;
   line-height: 100px;
 }
-
+/*This affects the hero text of the index page*/
 .main-hero-text{
   color: #000000;
   position: absolute;
@@ -299,20 +299,20 @@ img{
 nav{
   background-color: whitesmoke;
 }
-
+/*This makes the text bigger with larger gaps between lines*/
 p{
   font-size: 25px;
   line-height:50px;
 }
-
+/*This makes the text in the footer small, undoing the p code on that section*/
 small{
   font-size: 15px !important;
 }
-
+/*This makes the h2 bigger*/
 h2{
   font-size: 35px;
 }
-
+/*This makes the h3 bigger*/
 h3{
   font-size: 30px;
 }
