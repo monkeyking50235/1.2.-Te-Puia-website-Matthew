@@ -244,3 +244,7 @@ footer{
   width:300px;
   height:300px;
 }
+
+p{
+  border-bottom: 10px solid #000
+}
