@@ -109,14 +109,16 @@ main{
   left: 54%;
   transform: translate(-160%, -160%);
   color: rgb(0, 0, 0);
+
 }
 /*This makes the text on the dual images centered*/
 .centered2{
   position: absolute;
-  top: 28%;
+  top: 38%;
   left:45%;
   transform: translate(60%, 60%);
   color: rgb(0, 0, 0);
+
 }
 /*This changes the opacity of images without changing the text*/
 .opacity{
@@ -315,4 +317,14 @@ h2{
 /*This makes the h3 bigger*/
 h3{
   font-size: 30px;
+}
+/*Made centered smaller in hopes it stops going off the page on smaller windows
+*/
+.centered h3{
+  font-size:20px !important;
+}
+/*Made centered smaller in hopes it stops going off the page on smaller windows
+*/
+.centered2 h3{
+  font-size:20px !important;
 }
