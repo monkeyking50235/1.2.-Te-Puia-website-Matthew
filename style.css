@@ -114,7 +114,7 @@ main{
 /*This makes the text on the dual images centered*/
 .centered2{
   position: absolute;
-  top: 38%;
+  top: 28%;
   left:45%;
   transform: translate(60%, 60%);
   color: rgb(0, 0, 0);
